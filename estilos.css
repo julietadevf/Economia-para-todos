@@ -1,7 +1,14 @@
-.body{
+.bodyindex{
     background-image: url(savingme.png);
     background-size: cover;
     display: flex;
+}
+.body2{
+    display: flex;
+    background-image: url(savingme.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:#1db4c5;
 }
 
 .divpig{
@@ -14,6 +21,27 @@
     margin-top: 230px;
     height: 420px;
 }
-.pig {
-    width: 80%;
+.divp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+    height: 400px;
+    justify-content: flex-end;
+    margin-top: 19%
+}
+
+.divbtn{
+    text-align: center
+}
+.btndatos{
+    background-color: #f48064;
+    border-color: #f48064;
+    align-items: center;
+}
+.formdatos{
+    background-color: #fed768;
+    padding: 30px;
+    border-radius: 20px;
+
 }
