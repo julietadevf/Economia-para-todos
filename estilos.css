@@ -1,4 +1,4 @@
-body { 
+.barrasBody body { 
 background-image: url(https://image.ibb.co/dCTbQ9/Copia_de_saving_me.jpg); 
  display: flex;
 }
@@ -13,7 +13,7 @@ background-image: url(https://image.ibb.co/dCTbQ9/Copia_de_saving_me.jpg);
     color: #701700;
 }
 
-div{
+.bars div{
 justify-content: center;
   width: 600px;
   height: 500px;
