@@ -8,11 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <title>Inicia sesión</title>
-  </head>
+    <link rel="shortcut icon" type="image/png" href="https://image.flaticon.com/icons/png/512/476/476243.png">
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <title>Ingresa tus datos</title>
   <body class="body2 col-12">
     <div class"row"></div>
     <div class="col col-lg-4 offset-lg-4 col-md-10 offset-md-1 col-sm-12 divp2">
+        <div id="hola" class="hola">
+            <h1 id="rnombre">Nombre</h1>
+        </div>
         <div id="formdatos" class="formdatos">            
             <div class="form-group">
                 <label>Nombre</label>
@@ -31,8 +35,25 @@
                 <button id="btnenviar1" type="button" class="btn btn-primary btn-lg btndatos">Enviar</button>
             </div>
         </div>
+        <div id="divingresos" class="divingresos">            
+            <div class="form-group">
+                <label>Ingresos</label>
+                <input id="ingresos" type="number" class="form-control" aria-describedby="Ingresos" placeholder="¿Cuales son tus ingresos mensuales?">
+            </div>
+            <div class="divbtn">
+                <button id="btnsiguiente" type="button" class="btn btn-primary btn-lg btndatos">Siguiente</button>
+            </div>
+        </div>
+        <div id="divese" class="divese">            
+            <div class="form-group">
+                <label>Estudio socioeconómico</label>
+                <h1>Aqui va lo de Pedro</h1>
+            </div>
+            <div class="divbtn">
+                <button id="btnguardar" type="button" class="btn btn-primary btn-lg btndatos">Guardar</button>
+            </div>
+        </div>
     </div>
-    <img src="" alt="">
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
