@@ -1,0 +1,33 @@
+.navMaster{
+	border: 1px solid red;
+	margin: 0 10px;
+	display: flex;
+	flex-direction: row;
+}
+.menu{
+	width: 50%;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: flex-start;
+}
+.menu2{
+	width: 50%;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: flex-end;
+}
+.ingresosGastos{
+	border: 1px solid red;
+	display: flex;
+	width: 100%;
+}
+.ingresos{
+	width: 50%;
+	border: 2px solid yellow;
+	height: 100px;
+}
+.gastos{
+	width: 50%;
+	border: 2px solid yellow;
+	height: 100px;
+}
