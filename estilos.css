@@ -23,6 +23,17 @@
     background-color:#1db4c5;
     font-family: 'Jua', sans-serif;
 }
+.bodyconceptos{
+    display: flex;
+    flex-direction: column;
+    background-color:#1db4c5;
+    font-family: 'Jua', sans-serif;
+}
+
+.maincp{
+    padding-top: 5%
+}
+
 
 .divpig{
     display: flex;
@@ -41,6 +52,16 @@
     padding: 0%;
     height: 400px;
     margin-top: 19%;
+}
+.divp3{
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    height: 100%;
+    margin-top: 0%;
+}
+.divres{
+    padding-top: 8%
 }
 
 .hola{
@@ -62,6 +83,12 @@
     align-items: center;
     font-size: 130%;
 }
+.btndatosr{
+    background-color: #f48064;
+    border-color: #f48064;
+    align-items: center;
+    font-size: 100%;
+}
 
 .divingresos{
     display: none;
@@ -80,4 +107,47 @@
     background-color: #fed768;
     padding: 30px;
     border-radius: 20px;
+}
+
+.header3{
+}
+
+.main3{
+    border: solid yellow;
+    height: 500px;
+}
+.navbar3{
+    background-color: #fed768;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.pr{
+    display: flex;
+    border: solid green;
+    justify-content: center;
+    align-items: baseline
+}
+
+.h2sm{
+    margin-bottom: 0%
+}
+.home{
+    display: flex;
+    padding: 0%;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-res{
+    border-radius: 10px;
+    border:solid 2px #f48064;
+}
+
+.msjerespuesta{
+    background:white;
+    border-radius: 5px;
+    text-align: center;
 }
