@@ -1,0 +1,41 @@
+body { 
+background-image: url(https://image.ibb.co/dCTbQ9/Copia_de_saving_me.jpg); 
+ display: flex;
+}
+
+#skills span {
+    top: -30px;
+    left: 1%;
+    position: relative;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: monospace;
+    color: #701700;
+}
+
+div{
+justify-content: center;
+  width: 600px;
+  height: 500px;
+background-color: rgb(254, 215, 104);}
+
+progress {
+    background-color: rgb(244, 128, 100);
+    border: 0;
+    margin: 10px;
+    margin-left: 30px;
+    height: 3em;
+    width: 300px;
+
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(244, 128, 100);
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(192, 65, 142);  
+}
+
+progress::-moz-progress-bar {
+    background-color: rgb(192, 65, 142);
