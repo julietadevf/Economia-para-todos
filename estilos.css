@@ -1,3 +1,4 @@
+
 .barrasBody body { 
 background-image: url(https://image.ibb.co/dCTbQ9/Copia_de_saving_me.jpg); 
  display: flex;
@@ -38,4 +39,92 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-    background-color: rgb(192, 65, 142);
+  background-color: rgb(192, 65, 142);
+}
+
+.bodyindex{
+    display: flex;
+    background-image: url(inicio.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color:#1db4c5;  
+    
+}
+.body2{
+    display: flex;
+    background-image: url(savingme.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:#1db4c5;
+}
+
+.divpig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0%;
+    margin-top: 15%;
+    height: 420px;
+}
+.divp2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0%;
+    height: 400px;
+    margin-top: 19%
+}
+
+.divbtn{
+    text-align: center
+}
+.btndatos{
+    background-color: #f48064;
+    border-color: #f48064;
+    align-items: center;
+    font-size: 130%;
+}
+.formdatos{
+    background-color: #fed768;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.navMaster{
+	border: 1px solid red;
+	margin: 0 10px;
+	display: flex;
+	flex-direction: row;
+}
+.menu{
+	width: 50%;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: flex-start;
+}
+.menu2{
+	width: 50%;
+	border: 1px solid purple;
+	display: flex;
+	justify-content: flex-end;
+}
+.ingresosGastos{
+	border: 1px solid red;
+	display: flex;
+	width: 100%;
+}
+.ingresos{
+	width: 50%;
+	border: 2px solid yellow;
+	height: 100px;
+}
+.gastos{
+	width: 50%;
+	border: 2px solid yellow;
+	height: 100px;
+}
