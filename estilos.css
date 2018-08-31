@@ -145,10 +145,12 @@
 .card-res{
     border-radius: 10px;
     border:solid 2px #f48064;
+    background-color: #fffceb;
+    display:none;
 }
 
 .msjerespuesta{
-    background:white;
+    background:rgb(252, 163, 163);
     border-radius: 5px;
     text-align: center;
 }
