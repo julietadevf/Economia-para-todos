@@ -8,17 +8,6 @@ let btnbajo = document.getElementById("btnbajo")
 let btnmedio = document.getElementById("btnmedio")
 let btnalto = document.getElementById("btnalto")
 
-// acciones en Nav (Productos financieros)
-
-const resbajo = () =>{rbajo.style.display = "flex", rmedio.style.display = "none", ralto.style.display = "none"}
-const resmedio = () =>{rmedio.style.display = "flex",rbajo.style.display = "none", ralto.style.display = "none" }
-const resalto = () =>{ralto.style.display = "flex", rmedio.style.display = "none", rbajo.style.display = "none" }
-
-btnbajo.addEventListener("click", resbajo);
-btnmedio.addEventListener("click", resmedio);
-btnalto.addEventListener("click", resalto);
-
-//
 
 let usuario ={};
 
@@ -45,10 +34,18 @@ btnsiguiente.addEventListener("click",siguiente)
 
 const guardar = () => {
     divp2.style.display = "none";
-    divp3.style.display = "flex";
+    divp3.style.display = "block";
 
 }
 
 btnguardar.addEventListener("click",guardar)
+
+const resbajo = () =>{rbajo.style.display = "flex", rmedio.style.display = "none", ralto.style.display = "none"}
+const resmedio = () =>{rmedio.style.display = "flex",rbajo.style.display = "none", ralto.style.display = "none" }
+const resalto = () =>{ralto.style.display = "flex", rmedio.style.display = "none", rbajo.style.display = "none" }
+
+btnbajo.addEventListener("click", resbajo);
+btnmedio.addEventListener("click", resmedio);
+btnalto.addEventListener("click", resalto);
 
 

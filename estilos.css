@@ -54,6 +54,7 @@
     margin-top: 19%;
 }
 .divp3{
+    display: none;
     align-items: center;
     justify-content: center;
     padding: 0%;
