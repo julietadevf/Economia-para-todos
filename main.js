@@ -3,11 +3,11 @@ let nombre = document.getElementById("nombre")
 let email = document.getElementById("email")
 let psw = document.getElementById("psw")
 let btnsiguiente = document.getElementById("btnsiguiente")
-let btnguardar = document.getElementById("btnguardar")
+let btnguardar = document.getElementById("btnguardarDestino")
 let btnbajo = document.getElementById("btnbajo")
 let btnmedio = document.getElementById("btnmedio")
 let btnalto = document.getElementById("btnalto")
-let inputahorro = document.getElementById("%ahorro")
+let inputahorro = document.getElementById("perAhorro")
 
 
 let usuario ={};

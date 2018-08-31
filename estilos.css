@@ -50,7 +50,6 @@
     align-items: center;
     justify-content: center;
     padding: 0%;
-    height: 400px;
     margin-top: 19%;
 }
 .divp3{
@@ -101,13 +100,14 @@
     width: 90%;
 
 }
-.divese{
+.diveseDestino{
     display: none;
     flex-direction: column;
     align-content: space-between;
     background-color: #fed768;
     padding: 30px;
     border-radius: 20px;
+    width: 90%;
 }
 
 .header3{
@@ -153,4 +153,12 @@
     background:rgb(252, 163, 163);
     border-radius: 5px;
     text-align: center;
+}
+.azul{
+    width: 100%;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding: 10px;
 }
